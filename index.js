@@ -8,8 +8,8 @@ function lowerCaseDrivers(array){
 function nameToAttributes(names){
   //names = ['Bobby Smith', 'Sammy Watkins']
   return names.map(function(name){
-    let fName=name.split(" ")
-    let lName=name.split(" ")
+    let fName=name.substring([0],myStr.indexOf(" ")
+    let lName=name.substring([0],myStr.indexOf(" ")
     return {firstName: firstName, lastName: lName}
   })
 
