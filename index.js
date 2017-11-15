@@ -14,5 +14,8 @@ function nameToAttributes(names){
   })
 }
 
-  //[{firstName: "Bobby", lastName: "Smith"}, {firstName: "Sammy", lastName; "Watkins"}]
-
+function attributesToPhrase(drivers) {
+  return drivers.map(function(driver) {
+    `${driver.name} is from ${driver.hometown},`
+  })
+}
